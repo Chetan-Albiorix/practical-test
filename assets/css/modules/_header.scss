@@ -1,0 +1,101 @@
+.site-header{
+    padding: 20px 0;
+    .logo{
+        width: 25%;
+        flex: 25% 0 0;
+    }
+    .search-box{
+        width: 50%;
+        flex: 50% 0 0;
+    }
+    .contact{
+        width: 25%;
+        flex: 25% 0 0;
+        display: flex;
+        align-items: center;
+        .phone-icon{
+            width: 30px;
+            margin-right: 5px;
+        }
+        .contact-title{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.2px;
+            color: #006CB9;
+            margin: 0;
+        }
+        .contact-number{
+            line-height: 30px;
+            font-size: 25px;
+            font-weight: 600;
+            color: #337ab7;
+            margin: 0;
+        }
+    }
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    .search-container{
+        max-width: 450px;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .search-block{
+        position: relative;
+    }
+    input#search-bar{
+        max-width: 450px;
+        width: 100%;
+        height: 34px;
+        padding: 6px 42.5px 6px 12px;
+        font-size: 13px;
+        color: #333;
+        border: 1px solid #e2e2e2;
+        border-radius: 6px;
+        box-sizing: border-box;
+        &:focus{
+            border: 1px solid #008ABF;
+            transition: 0.35s ease;
+            color: #008ABF;
+            &::-webkit-input-placeholder{
+                transition: opacity 0.45s ease; 
+                opacity: 0;
+            }
+            &::-moz-placeholder {
+                transition: opacity 0.45s ease; 
+                opacity: 0;
+            }
+            &:-ms-placeholder {
+            transition: opacity 0.45s ease; 
+                opacity: 0;
+            }    
+        }
+    }
+    a{
+        position: absolute;
+        right: 10px;
+        z-index: 11;
+        display: block;
+        top: 0;
+    }
+    .search-icon{
+        position: relative;
+        float: right;
+        width: 75px;
+        height: 75px;
+        top: -62px;
+        right: -45px;
+    }
+}
+@media screen and (max-width:991px){
+    .site-header .logo {
+        width: 50%;
+        flex: 50% 0 0;
+        text-align: center;
+    }
+    .site-header .search-box{display: none;}
+    .site-header .contact{display: none;}
+
+}

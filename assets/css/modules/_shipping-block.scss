@@ -1,0 +1,38 @@
+.shipping-block{
+    background-color: #005ba0;
+    color: white;
+    font-weight: 500;
+    padding: 20px 0;
+    .shipping-list{
+        flex: 25% 0 0;
+        display: flex;
+        align-items: center;
+        .shipping-icon{
+            margin: 0 8px;
+            width: 28px;
+            height: 28px;
+        }
+        .shipping-text{
+            color: white;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .shipping-block .shipping-list {
+        flex: 50% 0 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .shipping-block .shipping-list {
+        margin-bottom: 18px;
+        flex-direction: column;
+        .shipping-icon{
+            margin-bottom: 5px;
+        }
+    }
+}

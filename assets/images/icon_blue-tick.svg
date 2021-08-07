@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bullet_tick@1x</title>
+    <defs>
+        <polygon id="path-1" points="0.0002 0 25 0 25 24.9999 0.0002 24.9999"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ZH_product-landing-page_desktop_A" transform="translate(-251.000000, -540.000000)">
+            <g id="Group" transform="translate(251.000000, 463.800000)">
+                <g transform="translate(0.000000, 76.200000)" id="Group-6">
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M25.0002,12.4999 C25.0002,19.4039 19.4032,24.9999 12.5002,24.9999 C5.5962,24.9999 0.0002,19.4039 0.0002,12.4999 C0.0002,5.5969 5.5962,-0.0001 12.5002,-0.0001 C19.4032,-0.0001 25.0002,5.5969 25.0002,12.4999" id="Fill-1" fill="#28A9E1" mask="url(#mask-2)"></path>
+                    </g>
+                    <polyline id="Stroke-4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="7.7184 12.184 10.8694 15.965 18.1144 9.035"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
